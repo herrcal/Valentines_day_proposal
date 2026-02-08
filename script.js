@@ -10,7 +10,7 @@ function selectOption(option)
         flashColors(function() 
         {
             document.getElementById('question').style.display = 'none'; // Hide the question
-            displayCatHeart(); // Display the cat-heart.gif
+            displayCatHug(); // Display the cat-hug.gif
         });
     } 
     else if (option === 'no') 
@@ -91,4 +91,5 @@ function displayCatHug()
 }
 
 // Display the kitty-heart-arrow.gif initially
+
 displayCat();
